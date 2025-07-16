@@ -16,3 +16,5 @@ Create a short diagram for the 2FA part (how to authentication works).</b>
   3. Se acceseaza aplicatia de autentificare, se copiaza codul TOTP si se introduce in cadrul sectiunii de autentificare din website.
   4. Ultimul pas este reprezentat de validarea TOTP de catre server. Serverul care detine si el aceeasi cheie secreta pentru acel utilizator, genereaza independent propriul sau TOTP folosind acelasi algoritm (de obicei TOTP bazat pe HMAC-SHA1) si aceeasi cheie secreta care a fost partajata in timpul configurarii. De asemenea, se ia in considerare o fereastră de timp mica (de exemplu, 30 de secunde inainte si 30 de secunde dupa ora curenta) pentru a tine cont de posibilele diferente de ora intre dispozitivul utilizatorului si server.
   5. Daca codul 2FA generat de server in cazul pasului 4 se potriveste cu cel introdus de utilizator si generat de aplicatia 2FA atunci accesul utilizatorului la website va fi permis.
+
+----------------DIAGRAMA MAI JOS----------------
