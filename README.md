@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/e9daf115-9d4a-4b7d-9ae7-bfd3e9285bc0
 4) Diagrama functionala a procesului 2FA este:
 </h3>
 
-![]()
+![](Exercise1_3/solution.png)
 <i>A. Procesul de inrolare 2FA</i>
   1. Utilizatorul isi va activa 2FA (2 Factor Authenticator) pe contul sau, in general dintr-o sectiune a website-ului dedicata acestui proces. Astfel se va incepe procesul de setare a detaliilor aplicatiei 2FA.
   2. Sistemul va genera o cheie secreta unica codata in base-32 pe care o asociaza in mod automat cu contul utilizatorului care a creat-o.
