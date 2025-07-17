@@ -28,7 +28,7 @@ https://github.com/user-attachments/assets/e9daf115-9d4a-4b7d-9ae7-bfd3e9285bc0
   2. In urma introducerii tuturor datelor necesare autentificarii (username/e-mail/telefon si parola), daca acestea sunt corecte si valide, utilizatorul este informat asupra faptului ca are nevoie de codul TOTP din aplicatia de autentificare setata anterior pentru a capata acces la website.
   3. Se acceseaza aplicatia de autentificare, se copiaza codul TOTP si se introduce in cadrul sectiunii de autentificare din website.
   4. Ultimul pas este reprezentat de validarea TOTP de catre server. Serverul care detine si el aceeasi cheie secreta pentru acel utilizator, genereaza independent propriul sau TOTP folosind acelasi algoritm (de obicei TOTP bazat pe HMAC-SHA1) si aceeasi cheie secreta care a fost partajata in timpul configurarii. De asemenea, se ia in considerare o fereastră de timp mica (de exemplu, 30 de secunde inainte si 30 de secunde dupa ora curenta) pentru a tine cont de posibilele diferente de ora intre dispozitivul utilizatorului si server.
-  5. Daca codul 2FA generat de server in cazul pasului 4 se potriveste cu cel introdus de utilizator si generat de aplicatia 2FA atunci accesul utilizatorului la website va fi permis. In caz contrar se va reincerca prin regenerarea codului TOTP de catre server si compararea lui, conform pasului 4.
+  5. Daca codul 2FA generat de server in cazul pasului 4 se potriveste cu cel introdus de utilizator si generat de aplicatia 2FA atunci accesul utilizatorului la website va fi permis. In caz contrar se va reincerca prin regenerarea codului TOTP de catre server si compararea lui.
 
 <h3>
   
