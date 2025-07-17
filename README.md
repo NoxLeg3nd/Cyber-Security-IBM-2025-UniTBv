@@ -37,6 +37,7 @@ https://github.com/user-attachments/assets/e9daf115-9d4a-4b7d-9ae7-bfd3e9285bc0
 
 ![](Exercise2_3/solution.png)
 
+Nota: Prin <code>"other employees"</code> se intelege imposibilitatea unui angajat de a vizualiza datele celorlalti angajati.
 <h2>Rolul aplicatiilor (legenda):</h2>
 <h3>HR Apps (Aplicatii Resurse Umane)</h3>
 <ul>
