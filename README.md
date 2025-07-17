@@ -1,14 +1,20 @@
 <h1>Mentiuni privitoare la task-uri:</h1>
-
+<h3>
+  
 1) Videoclipul obtinut in urma decriptarii, in cazul taskului din prima sedinta este:
 https://github.com/user-attachments/assets/e9daf115-9d4a-4b7d-9ae7-bfd3e9285bc0
 
-3) Am optat pentru crearea unor scripturi interactive care curata fisierele inainte de executia instructiunilor. Astfel am invatat sintaxa utila pentru crearea scripturilor .sh. 
+2) Am optat pentru crearea unor scripturi interactive care curata fisierele inainte de executia instructiunilor. Astfel am invatat sintaxa utila pentru crearea scripturilor .sh. 
 
-4) Toate comenzile folosite sunt incluse in folderele respective exerctitiilor (in fisiere cu extensia .sh).
+3) Toate comenzile folosite sunt incluse in folderele respective exerctitiilor (in fisiere cu extensia .sh).
+</h3>
 
-----------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
+
+<h3>
+  
 4) Diagrama functionala a procesului 2FA este:
+</h3>
 
 ![]()
 <i>A. Procesul de inrolare 2FA</i>
@@ -24,7 +30,11 @@ https://github.com/user-attachments/assets/e9daf115-9d4a-4b7d-9ae7-bfd3e9285bc0
   4. Ultimul pas este reprezentat de validarea TOTP de catre server. Serverul care detine si el aceeasi cheie secreta pentru acel utilizator, genereaza independent propriul sau TOTP folosind acelasi algoritm (de obicei TOTP bazat pe HMAC-SHA1) si aceeasi cheie secreta care a fost partajata in timpul configurarii. De asemenea, se ia in considerare o fereastră de timp mica (de exemplu, 30 de secunde inainte si 30 de secunde dupa ora curenta) pentru a tine cont de posibilele diferente de ora intre dispozitivul utilizatorului si server.
   5. Daca codul 2FA generat de server in cazul pasului 4 se potriveste cu cel introdus de utilizator si generat de aplicatia 2FA atunci accesul utilizatorului la website va fi permis.
 
+<h3>
+  
 5) Diagrama companiei ceruta in cadrul ultimei sesiuni este:
+</h3>
+
 ![](Exercise2_3/solution.png)
 
 <h2>Rolul aplicatiilor:</h2>
